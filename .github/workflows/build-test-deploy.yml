@@ -34,8 +34,8 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
      
-    permissions: 		### what our workflow is allowed to do
-      content: write
+    permissions:
+      contents: write
       pages: write
       id-token: write
 
